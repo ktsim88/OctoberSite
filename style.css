@@ -24,3 +24,17 @@ a {
     font-weight: 500;
     font-style: normal;
 }
+li {
+    list-style: inside;
+}
+.nav-item {
+    list-style: none;
+}
+/* imgs */
+#intro {
+    background-color: rgb(188, 188, 255);
+}
+.carousel-item {
+    height: 600px;
+    width: 500px;
+}
