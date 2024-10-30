@@ -35,6 +35,13 @@ li {
     background-color: rgb(188, 188, 255);
 }
 .carousel-item {
-    height: 600px;
+    height: 800px;
+    width: 1000px;
+}
+.carousel-inner {
+    width: 500px;
+    height: 500px;
+}
+.carousel {
     width: 500px;
 }
