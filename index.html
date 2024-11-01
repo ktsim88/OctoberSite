@@ -1,213 +1,392 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Agatha Christie</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Agatha Christie</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="https://use.typekit.net/dfi6yzj.css">
-        </head>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/dfi6yzj.css" />
+  </head>
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-            <nav class="navbar navbar-expand-lg bg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#scrollspyHeading1">Agatha Christie</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="#scrollspyHeading2">Early Life</a>
-                      <a class="nav-link" href="#scrollspyHeading3">Challenges</a>
-                      <a class="nav-link" href="#scrollspyHeading4">Accomplishments</a>
-                      <a class="nav-link" href="#scrollspyHeading5">Contributions</a>                       
+  <body>
+    <header>
+      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-lg bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#scrollspyHeading1">Agatha Christie</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#scrollspyHeading2"
+                >Early Life</a
+              >
+              <a class="nav-link" href="#scrollspyHeading3">Challenges</a>
+              <a class="nav-link" href="#scrollspyHeading4">Accomplishments</a>
+              <a class="nav-link" href="#scrollspyHeading5">Contributions</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <body>
+        <div class="container-fluid text-center align-items-center">
+          <div
+            data-bs-spy="scroll"
+            data-bs-target="#navbar-example2"
+            data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true"
+            class="scrollspy-example bg-body-tertiary p-3 rounded-2"
+            tabindex="0"
+          >
+          <!-- intro -->
+            <div class="row" id="intro">
+              <h1 id="scrollspyHeading1" class="py-3">Agatha Christie</h1>
+              <div class="col-12 px-5 py-3">
+                <h3>Here are some quick facts:</h3>
+                <ul>
+                  <li>Famous author who wrote mystery books</li>
+                  <li>Born: September 15, 1890</li>
+                  <li>Died: January 12, 1976</li>
+                </ul>
+                <h5>Click above or scroll down to learn more about her!</h5>
+              </div>
+            </div>
+            <hr>
+            <!-- early life -->
+            <div class="row d-flex align-items-center text-center my-3">
+              <h4 id="scrollspyHeading2">Early Life</h4>
+              <div class="col-12 col-md-6 py-3">
+                <img src="imgs/aChristiechild.jpg" class="img-fluid" />
+              </div>
+              <div class="col-12 col-md-6 py-3">
+                <p>
+                  Agatha Christie was born on Septermber 15, 1890 in Torquay,
+                  Devon England. When she was younger, she loved to make stories
+                  as a child. She taught herself how to read and write. She
+                  married Archie Christie but they got into a fight. In 1928,
+                  they divorced and she married Max Mallowman in 1930. She
+                  always traveled with him to the Middle East which is why many
+                  of her stories are in that area.
+                </p>
+              </div>
+            </div>
+            <hr />
+            <!-- challenges -->
+            <div class="row d-flex align-items-center text-center my-3">
+              <h4 id="scrollspyHeading3">Challenges</h4>
+              <div class="col-12 col-md-6 py-3">
+                <!-- beginning of carousel -->
+                <div id="carouselExample" class="carousel slide mx-auto">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="imgs/agathanews1.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="imgs/agathanews2.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
                     </div>
                   </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExample"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-              </nav>
-             
-        </header>
-        <main>
-            <body>
-                <div class="container-fluid text-center align-items-center">
-                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-                        <div class="row" id="intro">
-                        <h1 id="scrollspyHeading1" class="py-3">Agatha Christie</h1>
-                            <div class="col-12 px-5 py-3">
-                                <h3>
-                                    Here are some quick facts:
-                                </h3>
-                                <ul>
-                                    <li>Famous author who wrote mystery books</li>
-                                    <li>Born: September 15, 1890</li>
-                                    <li>Died: January 12, 1976</li>
-                                </ul>
-                                <h5>Click above or scroll down to learn more about her!</h5>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center text-center my-3">
-                            <h4 id="scrollspyHeading2">
-                                Early Life
-                            </h4>
-                                <div class="col-12 col-md-6 py-3">
-                                    <img src="imgs/aChristiechild.jpg" class="img-fluid">
-                                </div>
-                                <div class="col-12 col-md-6 py-3">
-                                    <p>Agatha Christie was born on Septermber 15, 1890 in Torquay, Devon England. When she was younger, she loved to make stories as a child. She taught herself how to read and write. She married Archie Christie but they got into a fight. In 1928, they divorced and she married Max Mallowman in 1930. She always traveled with him to the Middle East which is why many of her stories are in that area.</p>
-                                </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center text-center my-3">
-                        <h4 id="scrollspyHeading3">Challenges</h4>
-                            <div class="col-12 col-md-6 py-3">
-                                <!-- beginning of carousel -->
-                                <div id="carouselExample" class="carousel slide mx-auto">
-                                    <div class="carousel-inner">
-                                      <div class="carousel-item active">
-                                        <img src="imgs/agathanews1.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                      <div class="carousel-item">
-                                        <img src="imgs/agathanews2.jpg" class="d-block w-100" alt="...">
-                                      </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                      <span class="visually-hidden">Next</span>
-                                    </button>
-                                  </div>
-                                  <!-- end of carousel -->
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <p>On December 3, 1926, her mom died which took a toll on her. She disappeared on December 3, 1926 for 11 days. It was fully public as there were many news about her. Many policement were involved. It led to Arthur Conan Doyla and Dorothy L Sayers, who were authors,  to get involved to find more information about Christie. She was found at a health spa and there was no confirmed reason why she dissappeared and she never spoke about it. </p>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center text-center mx-3 my-3 p-3">
-                            <h4 id="scrollspyHeading4">
-                                Major Accomplishments
-                            </h4> 
-                            <p>Agatha Christie accomplished many things in her lifetime which include her creation of Poirot, her expertise with poisons, and becoming the bestselling murder mystery author of all time.</p>
-                            
-                            <div class="col-12 col-md-4 py-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/agathachristiechild.avif" alt="Title" />
-                                    <div class="card-body">
-                                        <h4 class="card-title">Best Selling Author</h4>
-                                        <p class="card-text">Her novel that defined her career was <i>"The Murder of Roger Ackroyd"</i>. She had a lot of sales for that book. <br><br> Her name is in the Guinness Book of Records for bestselling author of all time. There were over a hundred million books sold.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 py-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/Poirot2.jpeg" alt="Title" />
-                                    <div class="card-body">
-                                        <h4 class="card-title">Hercule Poirot</h4>
-                                        <p class="card-text">Poirot was one of Agatha Christie's iconic characters in her books. He first appeared in <i>"The Mystery Affair at Styles"</i>.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 py-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/palehorsebook.jpg" alt="Title" />
-                                    <div class="card-body">
-                                        <h4 class="card-title">Poison Master</h4>
-                                        <p class="card-text">Agatha Christie passed a test in order for her to become an assistant at a pharmacy. She used her knowledge to make 85 novels about poison. <br> One of her novels that included poison was <i>"Pale Horse"</i> which had a patient that had thallium poisoning.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row d-flex align-items-center text-center mx-3 my-3 p-3">
-                            <h4 id="scrollspyHeading5">
-                                Major Contributions
-                            </h4>
-                            <p>Agatha Christie accomplished a lot and contributed to society from helping the genre to having her books into film.</p>
-                            <div class="col-12 col-md-4 py-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/AgathaChristie1946.jpg" alt="Title" />
-                                    <div class="card-body">
-                                        <h4 class="card-title">Popularized Mystery</h4>
-                                        <p class="card-text">Agatha Christie’s books were very popular which changed and helped this genre. She made a lot of books that had a whodunit situation. Someone was murdered and Poirot or a different detective is called to solve a mystery. She adds suspense and builds up to show motivations of different characters. 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 py-3">
-                                <div class="card">
-                                    <!-- video -->
-                                    <iframe width="560" height="315" class="card-img-top" src="https://www.youtube.com/embed/Mq4m3yAoW8E?si=Vtv18mNdCZ2CpC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                    <div class="card-body">
-                                        <h4 class="card-title">Books to Film</h4>
-                                        <p class="card-text">Many of her books were adapted to film. One of them included <i>"Murder on the Orient Express"</i>. Her legacy still continues to this day because of the popularity of her books.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 py-3">
-                                <div class="card">
-                                    <img class="card-img-top" src="imgs/mousetrap.jpg" alt="Title"/>
-                                    <div class="card-body">
-                                        <h4 class="card-title">Longest Running Play</h4>
-                                        <p class="card-text">Agatha Christie wrote a play called <i>The Mousetrap</i>. It lasted for over 70 years. It ran from October 1952 until March 2020 due to Covid. It was first in Hottingham, transfered to Ambassadors Theatre, and stayed at St Martins Theatre. It's still runnning to this day.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
-            <!-- scrollspy ending div -->
-                    </div>
-                </div>
-            </body>
-        </main>
-        <footer>
-            <!-- place footer here -->
-            <div class="container-fluid">
-                <footer class="py-3 my-4">
-                    <div class="text-center px-3">
-                        <h5>Here's a link to learn more about her:</h5>
-                            <a href="https://www.history.com/this-day-in-history/agatha-christie-is-born" target="_blank" class="px-3 m-2 d-block site">Agatha Christe is Born from history.com</a>
-                            <a href="https://www.agathachristie.com/about-christie" target="_blank" class="px-3 m-2 d-block site">Agatha Christie Official Site</a>
-                            <a href="https://www.biography.com/authors-writers/agatha-christie" target="_blank" class="px-3 m-2 d-block site">Agatha Christie from Biography.com</a>
-                    </div>
-                  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item"><a href="#scrollspyHeading1" class="nav-link px-2 text-body-secondary">Home</a></li>
-                    <li class="nav-item"><a href="#scrollspyHeading2" class="nav-link px-2 text-body-secondary">Early Life</a></li>
-                    <li class="nav-item"><a href="#scrollspyHeading3" class="nav-link px-2 text-body-secondary">Challenges</a></li>
-                    <li class="nav-item"><a href="#scrollspyHeading4" class="nav-link px-2 text-body-secondary">Accomplishments</a></li>
-                    <li class="nav-item"><a href="#scrollspyHeading5" class="nav-link px-2 text-body-secondary">Contributions</a></li>
-                  </ul>
-                  <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-                </footer>
+                <!-- end of carousel -->
               </div>
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+              <div class="col-12 col-md-6">
+                <p>
+                  On December 3, 1926, her mom died which took a toll on her.
+                  She disappeared on December 3, 1926 for 11 days. It was fully
+                  public as there were many news about her. Many policement were
+                  involved. It led to Arthur Conan Doyla and Dorothy L Sayers,
+                  who were authors, to get involved to find more information
+                  about Christie. She was found at a health spa and there was no
+                  confirmed reason why she dissappeared and she never spoke
+                  about it.
+                </p>
+              </div>
+            </div>
+            <hr />
+            <!-- accomplishments -->
+            <div
+              class="row d-flex align-items-center text-center mx-3 my-3 p-3"
+            >
+              <h4 id="scrollspyHeading4">Major Accomplishments</h4>
+              <p>
+                Agatha Christie accomplished many things in her lifetime which
+                include her creation of Poirot, her expertise with poisons, and
+                becoming the bestselling murder mystery author of all time.
+              </p>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+              <div class="col-12 col-md-4 py-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="imgs/agathachristiechild.avif"
+                    alt="Title"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Best Selling Author</h4>
+                    <p class="card-text">
+                      Her novel that defined her career was
+                      <i>"The Murder of Roger Ackroyd"</i>. She had a lot of
+                      sales for that book. <br /><br />
+                      Her name is in the Guinness Book of Records for
+                      bestselling author of all time. There were over a hundred
+                      million books sold.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 py-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="imgs/Poirot2.jpeg"
+                    alt="Title"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Hercule Poirot</h4>
+                    <p class="card-text">
+                      Poirot was one of Agatha Christie's iconic characters in
+                      her books. He first appeared in
+                      <i>"The Mystery Affair at Styles"</i>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 py-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="imgs/palehorsebook.jpg"
+                    alt="Title"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Poison Master</h4>
+                    <p class="card-text">
+                      Agatha Christie passed a test in order for her to become
+                      an assistant at a pharmacy. She used her knowledge to make
+                      85 novels about poison. <br />
+                      One of her novels that included poison was
+                      <i>"Pale Horse"</i> which had a patient that had thallium
+                      poisoning.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- contributions -->
+            <div
+              class="row d-flex align-items-center text-center mx-3 my-3 p-3"
+            >
+              <h4 id="scrollspyHeading5">Major Contributions</h4>
+              <p>
+                Agatha Christie accomplished a lot and contributed to society
+                from helping the genre to having her books into film.
+              </p>
+              <div class="col-12 col-md-4 py-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="imgs/AgathaChristie1946.jpg"
+                    alt="Title"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Popularized Mystery</h4>
+                    <p class="card-text">
+                      Agatha Christie’s books were very popular which changed
+                      and helped this genre. She made a lot of books that had a
+                      whodunit situation. Someone was murdered and Poirot or a
+                      different detective is called to solve a mystery. She adds
+                      suspense and builds up to show motivations of different
+                      characters.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 py-3">
+                <div class="card">
+                  <!-- video -->
+                  <iframe
+                    width="560"
+                    height="315"
+                    class="card-img-top"
+                    src="https://www.youtube.com/embed/Mq4m3yAoW8E?si=Vtv18mNdCZ2CpC01"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                  <div class="card-body">
+                    <h4 class="card-title">Books to Film</h4>
+                    <p class="card-text">
+                      Many of her books were adapted to film. One of them
+                      included <i>"Murder on the Orient Express"</i>. Her legacy
+                      still continues to this day because of the popularity of
+                      her books.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 py-3">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="imgs/mousetrap.jpg"
+                    alt="Title"
+                  />
+                  <div class="card-body">
+                    <h4 class="card-title">Longest Running Play</h4>
+                    <p class="card-text">
+                      Agatha Christie wrote a play called <i>"The Mousetrap"</i>.
+                      It lasted for over 70 years. It ran from October 1952
+                      until March 2020 due to Covid. It was first in Hottingham,
+                      transfered to Ambassadors Theatre, and stayed at St
+                      Martins Theatre. It's still runnning to this day.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <!-- scrollspy ending div -->
+          </div>
+        </div>
+      </body>
+    </main>
+    <footer>
+      <!-- place footer here -->
+      <div class="container-fluid">
+        <footer class="py-3 my-4">
+          <div class="text-center px-3">
+            <h5>Here's a link to learn more about her:</h5>
+            <a
+              href="https://www.history.com/this-day-in-history/agatha-christie-is-born"
+              target="_blank"
+              class="px-3 m-2 d-block site"
+              >Agatha Christe is Born from history.com</a
+            >
+            <a
+              href="https://www.agathachristie.com/about-christie"
+              target="_blank"
+              class="px-3 m-2 d-block site"
+              >Agatha Christie Official Site</a
+            >
+            <a
+              href="https://www.biography.com/authors-writers/agatha-christie"
+              target="_blank"
+              class="px-3 m-2 d-block site"
+              >Agatha Christie from Biography.com</a
+            >
+          </div>
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a
+                href="#scrollspyHeading1"
+                class="nav-link px-2 text-body-secondary"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#scrollspyHeading2"
+                class="nav-link px-2 text-body-secondary"
+                >Early Life</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#scrollspyHeading3"
+                class="nav-link px-2 text-body-secondary"
+                >Challenges</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#scrollspyHeading4"
+                class="nav-link px-2 text-body-secondary"
+                >Accomplishments</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#scrollspyHeading5"
+                class="nav-link px-2 text-body-secondary"
+                >Contributions</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        </footer>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

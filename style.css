@@ -9,6 +9,7 @@ p, h5, li, h3 {
 }
 p {
     border: 2px dotted black;
+    padding: 5px;
 }
 h1, h4 {
 font-family: "p22-posada", sans-serif;
@@ -35,6 +36,9 @@ li {
     color: black;
     list-style-type: none;
  }
+ i {
+    color: rgb(0, 0, 174);
+ }
 /* imgs */
 #intro {
     background-image: url("https://media.istockphoto.com/id/1130968781/vector/elegant-light-and-shine-vector-gold-blurred-gradient-style-background-texture-abstract-metal.jpg?s=612x612&w=0&k=20&c=S0h1mnW4K05RhgsIXxROyt_6T8kIVqMabUYYUTWj2wY=");
@@ -46,6 +50,7 @@ li {
 img {
     border: 5px black dotted;
 }
+
 /* carousel */
 .carousel-item {
     height: 800px;
